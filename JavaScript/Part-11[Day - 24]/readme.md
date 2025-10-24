@@ -1,44 +1,15 @@
-Part 11 of JavaScript Journey 🚀.
+Part 11 of JavaScript Journey 🚀, Here’s what I explored 👇
 
+🔹Event Delegation — Instead of attaching event listeners to multiple child elements, we can attach one to their parent. This makes our code more efficient, reduces memory usage, and helps when dynamically adding elements.
 
+🔹Event Bubbling & Capturing (useCapture) — Learned how an event travels through the DOM. In bubbling, it moves from the target element up to its ancestors, while in capturing, it goes from the top down to the target. The useCapture flag lets us decide which one to use.
 
-I built a “Memory Sequence Game” (Simon Game 🎮) using HTML, CSS, and JavaScript! This project really helped me connect the dots between DOM manipulation, event handling, and game logic.
+🔹stopPropagation() & stopImmediatePropagation() — These methods are used when we want to stop an event from moving further in the DOM tree or prevent other listeners of the same event from firing.
 
+🔹Call Stack & JRE (JavaScript Runtime Environment) — Understood how the call stack keeps track of function execution and how the runtime environment manages asynchronous tasks even though JS is single threaded.
 
+🔹Callback Hell — Saw how deeply nested callbacks can make code hard to read and maintain, and how Promises or async/await help solve that problem with cleaner, more readable code.
 
-Here’s what I learned while working on it 👇
+🔹 Breakpoints in DevTools — Practiced using breakpoints to pause code at specific lines, inspect variables, and understand the real-time execution flow.
 
-
-
-➞ Used addEventListener to detect both keyboard and click events.
-
-
-
-➞ Implemented a flash effect to show patterns using classList.toggle() and setTimeout().
-
-
-
-➞ Stored game sequences in arrays (randNumArray and userClickArray) and compared them to check correctness.
-
-
-
-➞ Added audio feedback for clicks and game over sounds for a more interactive feel.
-
-
-
-➞ Managed game states like start, level up, and reset — all through simple logical conditions.
-
-
-
-➞ Explored the use of custom fonts and background effects to improve UI.
-
-
-
-➞ Used localStorage to store and retrieve highest score.
-
-
-
-It was a great practice to think step-by-step and see how JS can make static elements come alive! 💡
-
-
-
+🔹Single-Threaded Nature of JS — Realized that JavaScript can only do one thing at a time, but its event loop and asynchronous behavior make it feel multitasked. It’s all about clever execution management!
