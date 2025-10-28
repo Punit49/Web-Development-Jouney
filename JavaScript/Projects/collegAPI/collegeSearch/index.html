@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Univerity in your country</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Search Below</h1>
+
+        <div class="form">
+            <input type="text" placeholder="Enter Country Name" id="inputField">
+            <button id="btn">Show Colleges</button>
+        </div>
+
+        <h3>Results</h3>
+        <div id="results">
+            <table>
+                <tr>
+                    <td>Universities</td>
+                    <td>States</td>
+                </tr>
+                <tbody id="response">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js" defer></script>
+</body>
+</html>
