@@ -1,4 +1,4 @@
-// ? Day 28 of My JavaScript Journey 🚀
+// ? Day 28 of Web Development Journey 🚀, Today i learned about terminal👇
 
 // *🔹 Terminal & Its Types — Explored what a terminal really is — a command-line interface that lets us directly communicate with the operating system. Learned about different types like Command Prompt, PowerShell, and Bash, and how they differ slightly in syntax and functionality but serve the same purpose: executing commands efficiently.
 
