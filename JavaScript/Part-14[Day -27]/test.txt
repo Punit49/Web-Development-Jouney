@@ -1,1 +1,1 @@
-Testing in newFeature
+Testing in newFeature, Testing git reset command
